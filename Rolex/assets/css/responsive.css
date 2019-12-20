@@ -1,0 +1,181 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+    .section_action_area::after, .feature_bg::after {
+        left: 20px;
+    }
+    .indicator::before, .indicator::after {
+        margin: 0 27px;
+    }
+}
+/* Tablet & mobile Layout: 768px. */
+@media only screen and (max-width: 991px) { 
+    .slide_item_wrapper h1 {
+        font-size: 91px;
+    }
+    .single_services_box h3 {
+        font-size: 22px;
+    }
+    p {
+        font-size: 13px;
+    }
+    .action_text {
+        padding-left: 30px;
+    }
+    .action_text p {
+        font-size: 16px;
+    }
+    .section_action_area::after, .feature_bg::after {
+        width: 200px;
+        height: 92.1%;
+    }
+    .tablet_layout {
+        padding: 80px 0;
+    }
+    .tablet_layout_bottom_0{
+        padding-bottom:0;
+    }
+    .single_service_item h4 {
+        font-size: 17px;
+    }
+    .section_padding{
+        padding: 80px 0;
+    }
+    .indicator::before, .indicator::after {
+        right: -175px;
+        transform: translatey(17px);
+        margin-top: 0;
+    }
+    .indicator::after{
+        display: none;
+    }
+    .rolex_bg_sub img {
+        max-width: 225px;
+    }
+    .single_special_service_box {
+        padding: 25px 20px;
+    }
+    .single_team_item img {
+        max-width: 155px;
+    }
+    .single_team_item h4 {
+        font-size: 15px;
+    }
+    .cta_area h3 {
+        font-size: 22px;
+    }
+    .offcanvas_menu {
+        right: -40%;
+        width: 40%;
+    }
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+ 
+    
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+    .logo h3 {
+        font-size: 12px;
+    }
+    .logo img {
+        max-width: 30px;
+    }
+    .is-sticky .logo h3 {
+        font-size: 11px;
+    }
+    .is-sticky .logo img {
+        width: 24px;
+    }
+    .menu_triggers {
+        padding-top: 6px;
+    }
+    .homepage_hero_area {
+        height: 510px;
+    }
+    .slide_item_wrapper h2 {
+        font-size: 20px;
+    }
+    .slide_item_wrapper h1 {
+        font-size: 30px;
+    }
+    .slide_item_wrapper p{
+        font-size: 8px;
+    }
+    .offcanvas_menu {
+        right: -60%;
+        width: 60%;
+    }
+    .offcanvas_menu li a {
+        font-size: 18px;
+    }
+    .menu_close {
+        bottom: 50%;
+        transform: translatey(65px);
+        margin-bottom: -32px;
+        top: auto;
+    }
+    .single_services_box {
+        padding: 0 70px;
+    }
+    .section_action_area::after, .feature_bg::after {
+        display: none;
+    }
+    .spacer_80 {
+        height: 30px;
+    }
+    .action_text h2, .services_header_2 h2, .header_feature h2, .about_as h2 {
+        font-size: 27px;
+    }
+    .feature_title {
+        padding-top: 0;
+    }
+    .indicator.indicator_2::before, .indicator.indicator_2::after, .indicator.indicator_4::before, .indicator.indicator_4::after {
+        top: 20%;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+    }
+    .feature_title p {
+        text-align: center;
+    }
+    .indicator::before, .indicator::after {
+        display: none;
+    }
+    .rolex_bg_sub {
+        text-align: center;
+    }
+    .section_padding {
+        padding: 40px 0;
+    }
+    .single_team_item {
+        padding: 20px 30px;
+    }
+    .cta_area h3 {
+        font-size: 16px;
+    }
+    .inline_btn{
+        display: none;
+    }
+    .contact_form input[type=text], .contact_form input[type=email], .contact_form input[type=cal], .contact_form input[type=password], .contact_form textarea {
+        margin-bottom: 20px;
+    }
+    .contact_form p {
+        margin-bottom: 0;
+    }
+    .captcha_area_img {
+        margin-bottom: 20px;
+    }
+    .dividor_attach .col-md-6 {
+        padding-left: 9px;
+        padding-right: 9px;
+    }
+    .about_as {
+        padding: 40px 0;
+    }
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+   
+}
